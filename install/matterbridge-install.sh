@@ -46,7 +46,7 @@ After=network-online.target
 
 [Service]
 Type=simple
-ExecStart=matterbridge -bridge -service
+ExecStart=matterbridge -bridge -service -frontend 8283
 WorkingDirectory=/root/Matterbridge
 StandardOutput=inherit
 StandardError=inherit
