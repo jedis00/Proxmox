@@ -24,6 +24,7 @@ var_cpu="1"
 var_ram="1024"
 var_os="debian"
 var_version="12"
+var_port="8283"
 variables
 color
 catch_errors
@@ -36,6 +37,7 @@ function default_settings() {
   DISK_SIZE="$var_disk"
   CORE_COUNT="$var_cpu"
   RAM_SIZE="$var_ram"
+  PORT="$var_port"
   BRG="vmbr0"
   NET="dhcp"
   GATE=""
